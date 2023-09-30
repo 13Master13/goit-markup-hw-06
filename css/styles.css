@@ -1076,6 +1076,10 @@ img {
 		text-align: left;
 	}
 
+	.team .container {
+		max-width: 584px;
+	}
+
 	.team-list {
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -1194,6 +1198,10 @@ img {
 
 	.ways-item-text {
 		font-weight: 400;
+	}
+
+	.team .container {
+		max-width: max-content;
 	}
 
 	.team-list {
