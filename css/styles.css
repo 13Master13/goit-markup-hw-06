@@ -1076,10 +1076,6 @@ img {
 		text-align: left;
 	}
 
-	.team {
-		padding: 96px 108px;
-	}
-
 	.team-list {
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -1198,10 +1194,6 @@ img {
 
 	.ways-item-text {
 		font-weight: 400;
-	}
-
-	.team {
-		padding: 0;
 	}
 
 	.team-list {
