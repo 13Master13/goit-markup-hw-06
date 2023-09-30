@@ -23,23 +23,23 @@
 
 	<body>
 		<!-- Хедер -->
-		<!-- <header class="header">
-			<div class="container"> -->
-		<!-- Панель навігації -->
-		<!-- <nav class="navigation"> -->
-		<!-- Логотип -->
-		<!-- <a class="header-logo" href="./index.html"
+		<header class="header">
+			<div class="container">
+				<!-- Панель навігації -->
+				<nav class="navigation-header">
+					<!-- Логотип -->
+					<a class="header-logo" href="./index.html"
 						><span class="header-logo-web">Web</span
 						><span class="header-logo-studio">Studio</span></a
 					>
 					<ul class="header-list">
 						<li class="header-item"><a class="header-item-link" href="./index.html">Studio</a></li>
-						<li class="header-item"><a class="header-item-link" href="">Portfolio</a></li>
-						<li class="header-item"><a class="header-item-link" href="">Contacts</a></li>
+						<li class="header-item"><a class="header-item-link" href="#">Portfolio</a></li>
+						<li class="header-item"><a class="header-item-link" href="#">Contacts</a></li>
 					</ul>
-				</nav> -->
-		<!-- Контакти -->
-		<!-- <address>
+				</nav>
+				<!-- Контакти -->
+				<address class="address-header">
 					<ul class="address-list">
 						<li class="address-item">
 							<a class="address-item-box" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -49,8 +49,13 @@
 						</li>
 					</ul>
 				</address>
+				<button class="header-menu-button" type="button">
+					<svg class="icon-menu" width="24" height="24">
+						<use href="./images/icons.svg#icon-mobile-menu"></use>
+					</svg>
+				</button>
 			</div>
-		</header> -->
+		</header>
 		<!-- Унікальний контент сторінки -->
 		<main>
 			<!-- Секція Main -->
@@ -122,7 +127,12 @@
 					<h2 class="team-title">Our Team</h2>
 					<ul class="team-list">
 						<li class="team-item">
-							<img src="./images/section-3/img-mark.jpg" alt="Mark Guerrero" width="264" />
+							<img
+								srcset="./images/section-3/img-mark.jpg 1x, ./images/section-3/img@2x-mark.jpg 2x"
+								src="./images/section-3/img-mark.jpg"
+								alt="Mark Guerrero"
+								width="264"
+							/>
 							<div class="team-text">
 								<h3 class="team-item-title">Mark Guerrero</h3>
 								<p class="team-item-text">Product Designer</p>
@@ -159,7 +169,12 @@
 							</div>
 						</li>
 						<li class="team-item">
-							<img src="./images/section-3/img-tom.jpg" alt="Tom Ford" width="264" />
+							<img
+								srcset="./images/section-3/img-tom.jpg 1x, ./images/section-3/img@2x-tom.jpg 2x"
+								src="./images/section-3/img-tom.jpg"
+								alt="Tom Ford"
+								width="264"
+							/>
 							<div class="team-text">
 								<h3 class="team-item-title">Tom Ford</h3>
 								<p class="team-item-text">Frontend Developer</p>
@@ -196,7 +211,15 @@
 							</div>
 						</li>
 						<li class="team-item">
-							<img src="./images/section-3/img-camila.jpg" alt="Camila Garcia" width="264" />
+							<img
+								srcset="
+									./images/section-3/img-camila.jpg    1x,
+									./images/section-3/img@2x-camila.jpg 2x
+								"
+								src="./images/section-3/img-camila.jpg"
+								alt="Camila Garcia"
+								width="264"
+							/>
 							<div class="team-text">
 								<h3 class="team-item-title">Camila Garcia</h3>
 								<p class="team-item-text">Marketing</p>
@@ -233,7 +256,15 @@
 							</div>
 						</li>
 						<li class="team-item">
-							<img src="./images/section-3/img-daniel.jpg" alt="Daniel Wilson" width="264" />
+							<img
+								srcset="
+									./images/section-3/img-daniel.jpg    1x,
+									./images/section-3/img@2x-daniel.jpg 2x
+								"
+								src="./images/section-3/img-daniel.jpg"
+								alt="Daniel Wilson"
+								width="264"
+							/>
 							<div class="team-text">
 								<h3 class="team-item-title">Daniel Wilson</h3>
 								<p class="team-item-text">UI Designer</p>
@@ -279,7 +310,15 @@
 					<ul class="portfolio-list">
 						<li class="portfolio-item">
 							<div class="portfolio-box-hover">
-								<img src="./images/section-4/img-banking-app.jpg" alt="Banking App" width="360" />
+								<img
+									srcset="
+										./images/section-4/img-banking-app.jpg    1x,
+										./images/section-4/img@2x-banking-app.jpg 2x
+									"
+									src="./images/section-4/img-banking-app.jpg"
+									alt="Banking App"
+									width="360"
+								/>
 								<p class="overlay-text">
 									14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
 									Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -293,6 +332,10 @@
 						<li class="portfolio-item">
 							<div class="portfolio-box-hover">
 								<img
+									srcset="
+										./images/section-4/img-cashless-payment.jpg    1x,
+										./images/section-4/img@2x-cashless-payment.jpg 2x
+									"
 									src="./images/section-4/img-cashless-payment.jpg"
 									width="360"
 									alt="Cashless Payment"
@@ -310,6 +353,10 @@
 						<li class="portfolio-item">
 							<div class="portfolio-box-hover">
 								<img
+									srcset="
+										./images/section-4/img-meditation-app.jpg    1x,
+										./images/section-4/img@2x-meditation-app.jpg 2x
+									"
 									src="./images/section-4/img-meditation-app.jpg"
 									alt="Meditation App"
 									width="360"
@@ -326,7 +373,15 @@
 						</li>
 						<li class="portfolio-item">
 							<div class="portfolio-box-hover">
-								<img src="./images/section-4/img-taxi-service.jpg" alt="Taxi Service" width="360" />
+								<img
+									srcset="
+										./images/section-4/img-taxi-service.jpg    1x,
+										./images/section-4/img@2x-taxi-service.jpg 2x
+									"
+									src="./images/section-4/img-taxi-service.jpg"
+									alt="Taxi Service"
+									width="360"
+								/>
 								<p class="overlay-text">
 									14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
 									Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -340,6 +395,10 @@
 						<li class="portfolio-item">
 							<div class="portfolio-box-hover">
 								<img
+									srcset="
+										./images/section-4/img-screen-illustrations.jpg    1x,
+										./images/section-4/img@2x-screen-illustrations.jpg 2x
+									"
 									src="./images/section-4/img-screen-illustrations.jpg"
 									width="360"
 									alt="Screen Illustrations"
@@ -357,6 +416,10 @@
 						<li class="portfolio-item">
 							<div class="portfolio-box-hover">
 								<img
+									srcset="
+										./images/section-4/img-online-courses.jpg    1x,
+										./images/section-4/img@2x-online-courses.jpg 2x
+									"
 									src="./images/section-4/img-online-courses.jpg"
 									alt="Online Courses"
 									width="360"
@@ -510,6 +573,75 @@
 					</div>
 					<button class="modal-button" type="submit">Send</button>
 				</form>
+			</div>
+		</div>
+		<!-- Мобільне меню -->
+		<div class="mobile-menu">
+			<div class="container menu-container">
+				<button class="mobile-close-button" type="button">
+					<svg class="icon-mobile-close" width="8" height="8">
+						<use href="./images/icons.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div class="navigation-mobile">
+					<ul class="navigation-mobile-list">
+						<li class="navigation-mobile-item">
+							<a href="./index.html" class="navigation-mobile-item-link active">Studio</a>
+						</li>
+						<li class="navigation-mobile-item">
+							<a href="#" class="navigation-mobile-item-link">Portfolio</a>
+						</li>
+						<li class="navigation-mobile-item">
+							<a href="#" class="navigation-mobile-item-link">Contacts</a>
+						</li>
+					</ul>
+				</div>
+				<div class="address-mobile">
+					<ul class="address-mobile-list">
+						<li class="address-mobile-item">
+							<a class="address-mobile-item-link accent" href="tel:+110001111111"
+								>+11 (000) 111-11-11</a
+							>
+						</li>
+						<li class="address-mobile-item">
+							<a class="address-mobile-item-link" href="mailto:info@devstudio.com"
+								>info@devstudio.com</a
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="mobile-social">
+					<ul class="mobile-icons-list">
+						<li class="mobile-icons-item">
+							<a class="mobile-icons-link" href="#">
+								<svg class="mobile-icons" width="24" height="24">
+									<use href="./images/icons.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="mobile-icons-item">
+							<a class="mobile-icons-link" href="#">
+								<svg class="mobile-icons" width="24" height="24">
+									<use href="./images/icons.svg#icon-twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="mobile-icons-item">
+							<a class="mobile-icons-link" href="#">
+								<svg class="mobile-icons" width="24" height="24">
+									<use href="./images/icons.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="mobile-icons-item">
+							<a class="mobile-icons-link" href="#">
+								<svg class="mobile-icons" width="24" height="24">
+									<use href="./images/icons.svg#icon-linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
