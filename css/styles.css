@@ -1103,7 +1103,7 @@ img {
 		flex-direction: row;
 		flex-wrap: wrap;
 		gap: 72px 24px;
-		justify-content: center;
+		padding-left: 108px;
 	}
 
 	.footer-logo {
