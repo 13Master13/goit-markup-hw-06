@@ -54,6 +54,8 @@ button {
 
 img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .container {
@@ -296,7 +298,6 @@ img {
 }
 
 .team-list {
-	background-color: #fff;
 	display: flex;
 	flex-direction: column;
 	/* gap: 24px; */
@@ -304,6 +305,7 @@ img {
 }
 
 .team-item {
+	background-color: #fff;
 	text-align: center;
 	/* width: calc((100% - 72px) / 4); */
 	width: 100%;
