@@ -196,9 +196,6 @@ img {
 	outline: none;
 }
 
-.icon-menu {
-}
-
 /* Секція Main */
 
 .main {
@@ -933,9 +930,6 @@ img {
 	margin-bottom: auto;
 }
 
-.navigation-mobile-list {
-}
-
 .navigation-mobile-item:not(:last-child) {
 	margin-bottom: 40px;
 }
@@ -958,9 +952,6 @@ img {
 	margin-bottom: 48px;
 }
 
-.address-mobile-list {
-}
-
 .address-mobile-item:not(:last-child) {
 	margin-bottom: 24px;
 }
@@ -975,9 +966,6 @@ img {
 
 .address-mobile-item-link.accent {
 	color: #404bbf;
-}
-
-.mobile-social {
 }
 
 .mobile-icons-list {
@@ -1016,6 +1004,8 @@ img {
 			url(../images/section-1/people-office_mobile@2x.jpg);
 	}
 }
+
+/* Tablet */
 
 @media screen and (min-width: 768px) {
 	.container {
@@ -1140,6 +1130,8 @@ img {
 			url(../images/section-1/people-office_tablet@2x.jpg);
 	}
 }
+
+/* Desktop */
 
 @media screen and (min-width: 1158px) {
 	.container {
